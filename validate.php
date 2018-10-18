@@ -42,11 +42,10 @@ Class Validate {
 
     public function showInput($output){
         
-        echo "SHOWWWWWWWWWWWWWWW";
-        $output."First name = ".$_POST["firstName"];
-        $output."Last name = " . $_POST["lastName"];
-        $output . "Email = " . $_POST["email"];
-        $output . "Birthday = " . $_POST["birthday"];
+        $output.="First name = ".$_POST["firstName"];
+        $output.="Last name = " .$_POST["lastName"];
+        $output .= "Email = " . $_POST["emailAddress"];
+        $output .= "Birthday = " . $_POST["birthday"];
         return $output;
     }
 
