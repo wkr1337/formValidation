@@ -1,0 +1,52 @@
+
+/* Contact form */
+.wrapper3 {
+    height: minmax(50vh, auto);
+    background: rgb(178, 211, 211);
+    padding: 5em 20em;
+}
+
+.contact-form-wrapper {
+    box-shadow: 0 4px 8px 0 rgba(218, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #f2f2f2;
+    padding: 1em;
+}
+
+input,
+textarea {
+    width: 100%;
+    /* Full width */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    padding: 10px;
+    /* Some padding */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    border-radius: 4px;
+    /* Rounded borders */
+    border: 1px solid #ccc;
+    /* Gray border */
+}
+
+.contact-form-text {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+/* Style the submit button with a specific background color etc */
+#contact-submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+#contact-submit-button :hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
